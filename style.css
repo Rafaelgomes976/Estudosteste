@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    
+}/* Estilos para a barra de navegação */
+
+nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #660f45;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav li a:hover {
+    background-color: #555555;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    content:text;
+    
+  }
+  
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border-style: solid;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #660f45;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+  }
+
+.Cursosoferecidos {
+    
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.Noticias{
+    list-style-image: url(./img/book\ \(1\).png);
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 35px;
+}
+
+footer{
+background-color:#660f45;
+height: 200px;
+color: white;
+display: flex;
+justify-content: space-around;
+padding: 25px;
+box-shadow: 0px -8px 21px -3px rgba(0,0,0,0,59);
+}
+footer p:hover{
+    cursor:pointer;
+    color:white;
+    transition: 1s;
+
+}
+.footer-list li {
+    margin-bottom: 15px;
+}
+
+.footer-list a {
+    transition: 0.5s;
+}
+
+.footer-list a:hover {
+    color: #d4d4d4;
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer {
+    width: 40%;
+}
+
+.footer-list.footer-article-list span {
+    display: block;
+    float: none;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+    color:rgb(207, 207, 207);
+}
+
+.footer-list li span {
+    float: left;
+    height: 10px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #883267;
+}
+
+.footer-bottom p {
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+
